@@ -1,0 +1,53 @@
+body {
+  background: linear-gradient(rgb(189, 189, 248), rgb(220, 247, 250));
+}
+
+container {
+  height: 100vh;
+  width: 100vw;
+}
+.shaped {
+  background: black url(gora.png) center top no-repeat;
+  height: 100vh;
+  width: 40vw;
+  background-size: cover;
+  float: right;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
+}
+.zagalovok {
+  font-size: 40px;
+  font-family: "Lucida Console", Monaco, monospace;
+  letter-spacing: 3px;
+  padding-top: 80px;
+  padding-left: 24px;
+}
+.name {
+  font-size: 25px;
+  font-family: "Lucida Console", Monaco, monospace;
+  letter-spacing: 3px;
+  padding-top: 25px;
+  padding-left: 25px;
+}
+.info {
+  font-size: 15px;
+  font-family: "Lucida Console", Monaco, monospace;
+  letter-spacing: 3px;
+  padding-top: 20px;
+  padding-left: 25px;
+}
+.facts {
+  position: relative;
+  text-align: left;
+  font-size: 15px;
+  font-family: "Lucida Console", Monaco, monospace;
+  letter-spacing: 3px;
+  padding-top: 16px;
+}
+img {
+  display: block;
+  width: 40px;
+  height: 40px;
+  padding-top: 20px;
+  padding-left: 25px;
+}
